@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MainNav from "./main-nav";
+import { ModeToggle } from "./toggle-mode";
 //import Container from "./ui/container";
 //import MainNav from "./main-nav";
 //import getCategories from "@/actions/get-categories";
@@ -18,6 +19,7 @@ const Navbar =async () => {
                 <MainNav />
                 {/*
                 <NavbarActions/>*/}
+                <ModeToggle/>
             </div>
             
         </div>
